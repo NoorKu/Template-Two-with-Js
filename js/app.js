@@ -10,6 +10,5 @@ count.innerHTML = maxLength - this.value.length;
 count.innerHTML == 0 ? count.classList.add("zero") : count.classList.remove("zero");
 // Ser the progress
 progress.style.width = `${(this.value.length * 100) / maxLength}%`
-
 };
 
